@@ -1,0 +1,63 @@
+Python 3.5.2 (default, Nov 17 2016, 17:05:23) 
+[GCC 5.4.0 20160609] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> a=['she', 'sells', 'sea', 'shells','by', 'the', 'sea', 'shore']
+>>> b=["selfish shellfish"]
+>>> c=[1,1,2,3,5,8,13]
+>>> b[3:4]
+[]
+>>> b="selfish shellfish"
+>>> b[3:4]
+'f'
+>>> c[:-2]
+[1, 1, 2, 3, 5]
+>>> a[2:4]
+['sea', 'shells']
+>>> a*3
+['she', 'sells', 'sea', 'shells', 'by', 'the', 'sea', 'shore', 'she', 'sells', 'sea', 'shells', 'by', 'the', 'sea', 'shore', 'she', 'sells', 'sea', 'shells', 'by', 'the', 'sea', 'shore']
+>>> 'by' in a
+True
+>>> 'self' in b
+True
+>>> a[2]==a[6]
+True
+>>> a[3]==b[8:13]
+False
+>>> dogs=[dog,'poodle', 'boxer']
+Traceback (most recent call last):
+  File "<pyshell#13>", line 1, in <module>
+    dogs=[dog,'poodle', 'boxer']
+NameError: name 'dog' is not defined
+>>> len(dogs)
+Traceback (most recent call last):
+  File "<pyshell#14>", line 1, in <module>
+    len(dogs)
+NameError: name 'dogs' is not defined
+>>> 
+====== RESTART: /home/student/rakan19_lab5/meet2017y1lab5/stringfun.py ======
+
+>>> rakan
+Traceback (most recent call last):
+  File "<pyshell#15>", line 1, in <module>
+    rakan
+NameError: name 'rakan' is not defined
+>>> string_test(rakan)
+Traceback (most recent call last):
+  File "<pyshell#16>", line 1, in <module>
+    string_test(rakan)
+NameError: name 'rakan' is not defined
+>>> string_test('rakan')
+>>> 
+====== RESTART: /home/student/rakan19_lab5/meet2017y1lab5/stringfun.py ======
+>>> string_test('rakan')
+>>> 
+====== RESTART: /home/student/rakan19_lab5/meet2017y1lab5/stringfun.py ======
+>>> string_test('rakan')
+False
+>>> 
+====== RESTART: /home/student/rakan19_lab5/meet2017y1lab5/stringfun.py ======
+>>> string_test('rakan')
+False
+>>> string_test('rakan')
+False
+>>> 
